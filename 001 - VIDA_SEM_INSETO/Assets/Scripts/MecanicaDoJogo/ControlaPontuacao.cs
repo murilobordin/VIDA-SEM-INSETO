@@ -9,6 +9,11 @@ public class ControlaPontuacao : MonoBehaviour
     private Text textoPontuacao;
     private int pontos;
 
+    private void Start()
+    {
+        textoPontuacao = GameObject.FindObjectOfType<Text>();
+    }
+
     public void Pontuar()
     {
         pontos++;

@@ -60,14 +60,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ControlaBarreira.cs" />
-    <Compile Include="Assets\Scripts\ControlaGerador.cs" />
-    <Compile Include="Assets\Scripts\ControlaObstaculo.cs" />
-    <Compile Include="Assets\Scripts\ControlaPersonagem.cs" />
-    <Compile Include="Assets\Scripts\ControlaPontuacao.cs" />
-    <Compile Include="Assets\Scripts\ControlaReserva.cs" />
-    <Compile Include="Assets\Scripts\MovimentacaoPersonagem.cs" />
-    <Compile Include="Assets\Scripts\MovimentaObstaculo.cs" />
+    <Compile Include="Assets\Scripts\Auxiliar\NaoDestruir.cs" />
+    <Compile Include="Assets\Scripts\Auxiliar\UnicaInstancia.cs" />
+    <Compile Include="Assets\Scripts\Interface\ControlaTelaDeDerrota.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaBarreira.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaGerador.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaJogo.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaObstaculo.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaPersonagem.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaPontuacao.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaReserva.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\EfeitoCarrossel.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\MovimentacaoPersonagem.cs" />
+    <Compile Include="Assets\Scripts\MecanicaDoJogo\MovimentaObstaculo.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/muril/Desktop/DRMURILOV/001 - Jogos/010 - VIDA SEM INSETO/001 - VIDA_SEM_INSETO/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

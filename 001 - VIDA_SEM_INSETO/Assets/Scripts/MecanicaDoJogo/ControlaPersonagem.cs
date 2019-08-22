@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class ControlaPersonagem : MonoBehaviour
 {
+    [SerializeField]
     private ControlaPontuacao pontuacao;
+    [SerializeField]
+    private ControlaJogo diretorDeJogo;
 
-    private void Start()
-    {
-        pontuacao = GameObject.FindObjectOfType<ControlaPontuacao>();
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D outroObjeto)
     {
@@ -27,6 +27,6 @@ public class ControlaPersonagem : MonoBehaviour
 
     private void MataOPersonagem()
     {
-        //CarregaCenaDeMorte
+        diretorDeJogo.CarregaCena("TelaDeDerrota");
     }
 }

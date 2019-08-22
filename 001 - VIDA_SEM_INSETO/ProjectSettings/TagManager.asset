@@ -8,6 +8,8 @@ TagManager:
   - Obstaculo
   - Pontuavel
   - Mortifero
+  - Pontuacao
+  - Diretor
   layers:
   - Default
   - TransparentFX
