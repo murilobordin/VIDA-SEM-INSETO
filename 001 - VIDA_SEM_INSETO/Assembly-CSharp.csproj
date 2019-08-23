@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Auxiliar\NaoDestruir.cs" />
     <Compile Include="Assets\Scripts\Auxiliar\UnicaInstancia.cs" />
+    <Compile Include="Assets\Scripts\Interface\ControlaBarraDeInsolacao.cs" />
     <Compile Include="Assets\Scripts\Interface\ControlaTelaDeDerrota.cs" />
     <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaBarreira.cs" />
     <Compile Include="Assets\Scripts\MecanicaDoJogo\ControlaGerador.cs" />

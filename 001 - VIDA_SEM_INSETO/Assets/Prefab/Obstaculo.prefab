@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 651297854376044851}
   - component: {fileID: 7974043656834405781}
   m_Layer: 0
-  m_Name: Centro Da Flor
+  m_Name: Centro Da Flor Envenenada
   m_TagString: Mortifero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
